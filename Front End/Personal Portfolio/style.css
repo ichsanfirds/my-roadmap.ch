@@ -18,6 +18,14 @@ nav {
     margin-bottom: 2vh;
 }
 
+.marg-bot-sm {
+    margin-bottom: 3vh;
+}
+
+.marg-bot-md {
+    margin-bottom: 5vh;
+}
+
 .navigation-buttons > a{
     margin: 1vh;
 }
@@ -42,8 +50,6 @@ nav {
     grid-template-columns: 1fr 2fr 1fr;
     height: 100%;
     gap: 10px;
-
-    margin-bottom: 5vh;
 }
 
 .container-items {
@@ -81,10 +87,6 @@ nav {
 
 .education > ul{
     padding-left: 20px;
-}
-
-.reviews > h2 {
-    margin-bottom: 1vh;
 }
 
 .review-grid {
@@ -138,8 +140,27 @@ nav {
     border-radius: 20px;
 }
 
+/* contact.html */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 400px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+
 
 footer {
+    margin-top: 5vh;
     text-align: center;
 }
 
